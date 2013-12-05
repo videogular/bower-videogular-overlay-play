@@ -1,0 +1,8 @@
+{
+  "name": "videogular-overlay-play",
+  "version": "0.1.2",
+  "main": "./overlay-play.js",
+  "dependencies": {
+    "videogular": "latest"
+  }
+}
