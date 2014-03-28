@@ -9,14 +9,14 @@ angular.module("com.2fdevs.videogular.plugins.overlayplay", [])
 				scope: {
 					vgPlayIcon: "="
 				},
-				controller: function ($scope){
+				controller: ['$scope', function ($scope) {
 					$scope.playIcon = $.parseHTML($scope.vgPlayIcon)[0].data;
 					$scope.currentIcon = $scope.playIcon;
-				},
+				}],
 				template: "<div class='overlayPlayContainer'>"+
                     "<div class='iconButton'>{{currentIcon}}</div>"+
                   "</div>"
-        ,
+        		,
 				link: function(scope, elem, attr, API) {
 					function onComplete(target, params) {
 						scope.currentIcon = scope.playIcon;
