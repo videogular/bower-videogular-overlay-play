@@ -9,8 +9,6 @@ Install [Videogular](http://www.videogular.com/) `overlay-play` plugin with Bowe
 
 `bower install videogular-overlay-play`
 
-Inside the folder `bower_components\videogular-overlay-play` you should find also `html` partials that you should locate in `.\views\videogular\plugins\overlay-play\`.
-
 ### Install Videogular
 
 Install [Videogular](http://www.videogular.com/) with Bower:
