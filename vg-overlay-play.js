@@ -1,5 +1,5 @@
 /**
- * @license Videogular v1.0.1 http://videogular.com
+ * @license videogular v1.1.0 http://videogular.com
  * Two Fucking Developers http://twofuckingdevelopers.com
  * License: MIT
  */
@@ -10,13 +10,13 @@
  * @description
  * Shows a big play button centered when player is paused or stopped.
  *
- * ```html
+ * <pre>
  * <videogular vg-theme="config.theme.url" vg-autoplay="config.autoPlay">
  *    <vg-media vg-src="sources"></vg-media>
  *
  *    <vg-overlay-play></vg-overlay-play>
  * </videogular>
- * ```
+ * </pre>
  *
  */
 "use strict";
