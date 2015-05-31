@@ -1,5 +1,5 @@
 /**
- * @license videogular v1.2.1 http://videogular.com
+ * @license videogular v1.2.2 http://videogular.com
  * Two Fucking Developers http://twofuckingdevelopers.com
  * License: MIT
  */
@@ -67,9 +67,7 @@ angular.module("com.2fdevs.videogular.plugins.overlayplay", [])
                         return API.currentState;
                     },
                     function (newVal, oldVal) {
-                        if (newVal != oldVal) {
-                            scope.onChangeState(newVal);
-                        }
+                        scope.onChangeState(newVal);
                     }
                 );
             }
