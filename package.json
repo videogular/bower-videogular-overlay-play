@@ -2,6 +2,10 @@
 	"name": "videogular-overlay-play",
 	"version": "1.4.4",
 	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/videogular/bower-videogular-overlay-play.git"
+	  },
 	"dependencies": {
 		"videogular": "~1.4.4"
 	},
